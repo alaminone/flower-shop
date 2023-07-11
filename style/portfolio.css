@@ -1,15 +1,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.colour-text{
-    color: #E55473;
-}
+
 .header{
     display: flex;
     padding: 50px 250px 0px 250px;
 }
 .header{
-    background-color:rgba(229, 84, 115, 0.10);
+    background-color: #edc7c7;
 
 }
 
@@ -115,9 +113,9 @@ border: none;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    margin-left: 620px; 
-    margin-right: 100px;
-    gap: 550px; 
+    margin-left: 520px; 
+    margin-right: 300px;
+    gap: 500px; 
 
 }
 /* icon section */
@@ -135,27 +133,72 @@ border: none;
 .icon-text{
     gap: 300px;
     color:#272727;
-/* text-align: center; */
+text-align: center;
 font-size: 24px;
 font-weight: 600;
 line-height: 35px;
 }
+
+/* bonus */
+.bonus{
+    display: contents;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.bonus-title{
+    text-align: center;
+color: black;
+font-size: 80px;
+font-weight: 800;
+}
+.trending{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.product{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 540px;
+    margin-right: 300px;
+
+}
+.buy-now{
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+    margin-left: 580px;
+    margin-right: 330px;
+
+}
+
+
 /* hot deal */
 .hot-deal{
+
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-padding: 100px 0px 100px 450px;
-margin-top: 150px;
-text-align: justify;
+background-color: honeydew;
+margin-top: 200px;
+padding-top: 100px;
+padding-left:500px ;
+padding-bottom:100px;
+padding-right:500px;
 }
 .hot-deal-title{
+    text-align: justify;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 .hot-deal-description{
     color: #272727;
+    display: flex;
+    width: 594px;   
     text-align: center;
     font-size: 18px;
     font-weight: 400;
