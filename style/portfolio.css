@@ -14,12 +14,17 @@ body{
 div li{
     list-style: none;
 }
+.welcome-all{
+    display: flex;
+    padding: 200px 150px 200px 150px;
+    justify-content: space-between;
+}
 .intro{
     display: flex;
 width: 800px;
 flex-direction: column;
 color: #272727;
-font-size: 50px;
+font-size: 70px;
 font-weight: 700;
 }
 .intro-description{
@@ -32,10 +37,7 @@ font-size: 18px;
 font-weight: 400;
 margin-top: 20px;
 }
-.welcome-all{
-    display: flex;
-    padding: 200px 200px 200px 200px;
-}
+
 .btn-prymary{
     color: #FFF;
     font-size: 20px;
@@ -86,7 +88,9 @@ border: none;
     height: 471px;
     border-radius: 300px 300px 0px 0px;
     background: #edc7c7;
-    padding: 100px 80px 0px 80px;
+    padding: 100px 80px 0px 50px;
+    display: flex;
+    justify-content: end;
 }
 .flower-yellow{
     width: 400px;
@@ -189,6 +193,9 @@ padding-left:600px ;
 padding-bottom:100px;
 padding-right:800px;
 }
+.hot-deal div{
+    text-align: center;
+}
 .hot-deal-title{
     text-align: justify;
     color: #272727;
@@ -246,7 +253,7 @@ nav, .instagram-photo{
     background-image: url(../images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: width: 1440px;
+    background-size: 1440px;
     height: 449px;
     padding: 100px 50px 20px 50px;
     
